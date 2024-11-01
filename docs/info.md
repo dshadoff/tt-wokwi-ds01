@@ -9,12 +9,26 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project demonstrates trivial AND gates and inverters.
+To be used for demonstrating logical inputs/outputs, tool flow, and 3D visualization.
+
 
 ## How to test
 
-Explain how to use your project
+OUT0 is driven by the logical AND value from  IN0 and RST_N
+OUT1 is driven by the logical AND value from  IN1 and IN0
+
+OUT2 is driven by the opposite (inverted) logic value from IN2 
+OUT3 is driven by the opposite (inverted) logic value from IN3
+
+OUT4 is driven by the logic value at IN4 
+OUT5 is driven by the logic value at IN5 
+OUT6 is driven by the logic value at IN6 
+OUT7 is driven by the logic value at IN7 
+
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+RESET pushbutton
+DIP Switch (for inputs)
+LED display
